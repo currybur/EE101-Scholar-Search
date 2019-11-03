@@ -1,0 +1,16 @@
+{
+  "nodes": [
+    {"id": "Wang Xiaocheng", "group": 23},
+    {"id": "Yang Wenjie", "group": 23},
+    {"id": "Liu Kehao", "group": 23},
+    {"id": "Yu Xi", "group": 23}
+  ],
+  "links": [
+    {"source": "Wang Xiaocheng", "target": "Yang Wenjie", "value": 200},
+    {"source": "Wang Xiaocheng", "target": "Liu Kehao", "value": 200},
+    {"source": "Wang Xiaocheng", "target": "Yu Xi", "value": 200},
+    {"source": "Yang Wenjie", "target": "Liu Kehao", "value": 200},
+    {"source": "Yang Wenjie", "target": "Yu Xi", "value": 200},
+    {"source": "Liu Kehao", "target": "Yu Xi", "value": 200}
+  ]
+}
